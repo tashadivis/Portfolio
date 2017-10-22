@@ -3,7 +3,7 @@
 <head>
 	<title>Tasha Divis Portfolio | Web Developer & Designer | Vancouver, BC</title>
 	<meta name="description" content="ePortfolio for Tasha Divis, Web Developer and Designer based in The Lower Mainland of British Columbia.">
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="styles/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,7 @@
 	<link rel="manifest" href="images/favicon/manifest.json">
 	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#ff358b">
 	<meta name="theme-color" content="#ffffff">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/5cc43c2d39.js"></script>
