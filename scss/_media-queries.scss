@@ -1,0 +1,151 @@
+//MEDIA QUERIES
+
+@media screen and (max-width: 1500px) { /////////////// D E S K T O P  L A R G E //////////////
+	.hi img, .hi-tasha img { width: 40vw !important; }
+
+	.hi img, .hi-tasha img { height: 40vw !important;  }
+
+	.hi-tasha img { padding-top: 0 !important;}
+
+	#contact .social-media ul { width: 30vw; }
+}
+
+@media screen and (max-width: 1080px) { //////////////////// D E S K T O P ////////////////////
+
+	.intro-container {
+		padding: 0 6% 0 6% !important;
+
+		.writeup {
+			width: 90% !important;
+
+			p {
+				width: 100% !important;
+				margin-bottom: 5vw !important;
+			}
+
+		}
+
+		.headshot { 
+			margin: 0 auto !important;
+			display: flex;
+			align-self: center;
+			width: 50% !important;
+		}
+	}	
+}
+
+@media screen and (max-width: 1025px) { ////////////////////// T A B L E T /////////////////////
+	#projects h1 .swipe { 
+		display: block; 
+		&:after { content: ", tap for info."; }
+	} 
+}
+
+@media screen and (max-width: 640px) { //////////////// M O B I L E  X L A R G E/////////////////
+	div.hi { transform: translate(-50%, -50%); left: 50%; animation: fadein-no-delay 1s ease-in-out; }
+	header .scrollDown { animation: fadein 2.25s ease-in-out; }
+}
+
+@media screen and (max-width: 550px) { ///////////////// M O B I L E  L A R G E//////////////////
+
+	.hi img, .hi-tasha img { width: 75vw !important; }
+	.hi img{ height: 75vw !important; }
+
+	.writeup { 
+		margin-top: 0 !important;
+		font-size: 18px !important;
+
+		p { margin-top: 5vw !important; }
+	}
+
+	nav#nav { 
+		right: 0rem;
+		opacity: 1;
+	}
+	nav { transition: all .3s ease; }
+
+	nav.show { right: 53px !important; }
+
+	#header a.menu-link { display: block !important; }
+
+	span.menu-box, a.menu-link { display: block; animation: fadein 2s ease-in-out; }
+
+	#contact .social-media ul { width: 50vw; }
+
+	#contact p { line-height: 1.5em; } 
+
+	#projects h1 .swipe { &:after { content: "."; } }
+
+	#projects .project-container {
+		height: 70vh;
+		top: 60%;
+		.slick-arrow { display: none !important; }
+		img.desktop { display: none; }
+		img.mobile { display: block !important; }
+		.slick-slide .info { 
+			top: 67%;
+			opacity: 1;
+			h2 { font-size: 2em; }
+			h3 { font-size: 1em; }
+		}
+	}
+	span.info.dawg { top: 58%; }
+
+}
+
+@media screen and (max-width: 425px) { //////////////////// M O B I L E  M E D /////////////////////
+	
+	.intro-container {
+		padding: 0 5% 0 5% !important;
+
+		.writeup { font-size: 16px !important; }
+	}
+
+}
+
+@media screen and (max-width: 380px) { ////////////////// M O B I L E  S M A L L ///////////////////
+
+	#tasha { 
+		height: 110vh !important;
+		.writeup { width: 100% !important; }
+	}
+
+	#contact p { padding: 35px; }
+
+	#projects .project-container .slick-slide .info {
+		h2, h3{
+			padding: 0 !important;
+			margin: 10px !important; 
+		}
+	}
+	
+}
+
+@media screen and (max-width: 360px) { ////////////////// M O B I L E  S M A L L 2 ///////////////////
+
+	#projects .project-container .slick-slide .info h2 { 
+		font-size: 1.5em; 
+		padding-top: 10px !important;
+	}
+
+	#contact {
+		p { 
+			padding: 12px;
+			&:first-child { margin-top: -50px; }
+			span { 
+				display: table-row;
+				&:before, &:after { content: "\00a0"; }
+			}
+		}
+		.social-media {
+			margin: 20px 0; 
+			ul { padding: 10px 0; }
+		}
+
+		.content { 
+			height: 85vh;
+			padding-top: 15vh;
+		}
+	}
+
+}

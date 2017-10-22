@@ -1,0 +1,80 @@
+//HEADER
+@import 'variables';
+
+header{
+	background-color: $black;
+	height: 100vh;
+	color: $white;
+	position: relative;
+	
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadein-no-delay {
+	0% {
+		opacity: .1;
+	}
+	50% {
+		opacity: .8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+	.scrollDown {
+		position: absolute;
+		bottom: 30px;
+		left: 10%;
+		animation: fadein 7s ease-in-out;
+
+		a:focus { outline: none; }
+
+		span {	img { width: 15px; }  }
+	}
+	
+}
+
+@keyframes float {
+	0% {
+		transform: translate(-34vw, -50%);
+		width: 20vw !important;
+		height: 20vw !important;
+	}
+	50% {
+		transform: translate(10%, -50%);
+		width: 20vw !important;
+		height: 20vw !important;
+	}
+	100% {
+		width: 24vw;
+		height: 24vw;
+	}
+}
+
+.hi {
+	position: absolute;
+	animation: float 4s ease-in-out;
+	top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.hi-tasha img { padding-top: 6%; }
+
+.hi img { height: 24vw; }
+
+.hi img, .hi-tasha img { 
+	width: 24vw;
+	transition: width 1s ease;
+	float: left;
+}

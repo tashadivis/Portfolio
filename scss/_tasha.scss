@@ -1,0 +1,40 @@
+//TASHA
+@import 'variables';
+
+#tasha {
+	background-color: $white;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+
+	.intro-container { 
+		margin: 0 auto;
+	}
+
+	.writeup { 
+		clear: both;
+		margin-top: 1vw; 
+		width: 60%;
+		font-size: 20px;
+		float: left;
+
+		p { 
+			width: 80%;
+		}
+
+		a { 
+			color: $pink; 
+			transition: .5s ease;
+			font-weight: bold;
+
+			&:hover,&:focus { color: darken($pink, 15); }
+		}
+	}
+
+	.headshot {
+		width: 30%;
+		max-width: 500px;
+		min-width: 225px;
+	}
+}

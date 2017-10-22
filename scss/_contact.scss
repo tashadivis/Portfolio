@@ -1,0 +1,133 @@
+//CONTACT PAGE
+@import 'variables';
+
+#contact {
+	background-color: $green;
+	height: 100vh;
+	position: relative;
+
+	.content { 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 90vh;
+		justify-content: center;
+	}
+
+	h1 { 
+		color: $black;
+		position: absolute;
+		font-weight: bold;
+		top: 6vw;
+		left: 6vw;
+
+		span {
+			text-decoration: none;
+			background-image: linear-gradient($white, $white);
+			background-size: auto 23px;
+			background-repeat: repeat no-repeat;
+			background-position: bottom center;
+			padding-bottom: 0px;
+			font-size: 3em;
+		}
+		
+	}
+
+	p { 
+		color: $black;
+		text-align: center;
+		font-size: 2.5em;
+		font-weight: bold;
+		padding: 50px;
+
+		span {
+			color: $pink;
+			font-weight: normal;
+			background-color: $black;
+			padding: 0px 10px 4px 10px;
+		}
+	}
+
+	a { 
+		color: $black;
+		transition: .5s ease;
+		font-size: 26px;
+
+		&:hover,&:focus { color: $blue; }
+	}
+
+	.social-media { 
+		display: flex;
+		justify-content: center;
+
+		ul { 
+			display: flex;
+			width: 14vw;
+			justify-content: space-around;
+		}
+	}
+}
+
+#contact2 {
+	position: relative;
+
+	.content { 
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 90vh;
+		justify-content: center;
+	}
+
+	h1 { 
+		color: $white;
+		position: absolute;
+		font-weight: bold;
+		top: 6vw;
+		left: 6vw;
+
+		span {
+			text-decoration: none;
+			background-image: linear-gradient($blue, $blue);
+			background-size: auto 23px;
+			background-repeat: repeat no-repeat;
+			background-position: bottom center;
+			padding-bottom: 0px;
+			font-size: 3em;
+		}
+		
+	}
+
+	p { 
+		color: $white;
+		text-align: center;
+		font-size: 2.5em;
+		padding: 50px;
+
+		span {
+			color: $pink;
+			font-weight: bold;
+			background-color: $white;
+			padding: 0px 10px 4px 10px;
+		}
+	}
+
+	a { 
+		color: $white;
+		transition: .5s ease;
+		font-size: 26px;
+
+		&:hover,&:focus { color: $green; }
+	}
+
+	.social-media { 
+		display: flex;
+		justify-content: center;
+
+		ul { 
+			display: flex;
+			width: 10vw;
+			justify-content: space-around;
+		}
+	}
+}
