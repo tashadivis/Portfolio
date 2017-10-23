@@ -19,7 +19,7 @@
 			<img src="images/YC-Mobile.jpg" style="display: none;" class="mobile">
 			<span class="info">
 				<h2>Yaletown Counselling</h2>
-				<h3>Custom Wordpress Theme Designed & Developed for Jessica Willis</h3>
+				<h3>Custom WordPress Theme Designed & Developed for Jessica Willis</h3>
 				<a class="view-live" href="https://yaletowncounselling.com">View live site</a>
 				<!-- <p><a href="yaletown-counselling.php">Read more about this project</a></p> -->
 			</span>

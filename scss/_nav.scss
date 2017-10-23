@@ -65,7 +65,7 @@
 span.menu-box, a.menu-link { display: none; }
 
 .menu-box {
-	background-color: #000;
+	background-color: $black;
 	height: 53px;
 	width: 53px;
 	position: fixed;
@@ -74,7 +74,7 @@ span.menu-box, a.menu-link { display: none; }
 	z-index: 899;
 }
 .menu-link {
-  color: #fff;
+  color: $white;
   display: inline-block;
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -87,7 +87,7 @@ span.menu-box, a.menu-link { display: none; }
 	
   	&:before {
 	    content: "";
-	    background: #fff;
+	    background: $white;
 	    height: 4px; 
 	    width: 40px; 
 	    position: absolute; 
@@ -101,7 +101,7 @@ span.menu-box, a.menu-link { display: none; }
 	  
 	&:after {
 		content: ""; 
-		background: #fff; 
+		background: $white; 
 		height: 4px; 
 		width: 40px; 
 		position: absolute; 

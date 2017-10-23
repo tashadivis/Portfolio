@@ -1,3 +1,14 @@
+@keyframes bounceLeft {
+	0% { left: -35px; }
+	50% { left: -45px; }
+	100% { left: -35px; }
+}
+@keyframes bounceRight {
+	0% { right: -35px; }
+	50% { right: -45px; }
+	100% { right: -35px; }
+}
+
 //PROJECTS
 @import 'variables';
 
@@ -94,14 +105,20 @@
 						&:hover { background-color: $blue; }
 					}
 					&:last-child { 
-						font-weight: bold; 
-						/*&:hover { color: $blue; }*/
+						font-weight: bold;
 					}
 
 					
 				}
 			}
 		}
+
+		button {
+			&.slick-prev { animation: bounceLeft 1s infinite; }
+			&.slick-next { animation: bounceRight 1s infinite; }
+		}
+
+
 		
 	}
 
