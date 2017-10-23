@@ -130,6 +130,16 @@ header .scrollDown span img { width: 15px; }
 
 #projects .project-container button.slick-next { -webkit-animation: bounceRight 1s infinite; animation: bounceRight 1s infinite; }
 
+#projects .container { bottom: 10%; left: 10%; position: absolute; right: 10%; top: -40%; }
+
+#projects .container .hand { -webkit-animation: swipe 1.5s ease-in-out infinite; animation: swipe 1.5s ease-in-out infinite; color: #000; font-size: 100px; height: 100px; left: calc(50% - 50px); opacity: .1; position: absolute; top: calc(50% - 50px); -webkit-transform-origin: bottom; transform-origin: bottom; width: 100px; }
+
+@-webkit-keyframes swipe { 0% { -webkit-transform: translate(100%) rotate(15deg); transform: translate(100%) rotate(15deg); }
+  100% { -webkit-transform: translate(-100%); transform: translate(-100%); } }
+
+@keyframes swipe { 0% { -webkit-transform: translate(100%) rotate(15deg); transform: translate(100%) rotate(15deg); }
+  100% { -webkit-transform: translate(-100%); transform: translate(-100%); } }
+
 #contact { background-color: #AEEE00; height: 100vh; position: relative; }
 
 #contact .content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 90vh; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
