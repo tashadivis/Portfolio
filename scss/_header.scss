@@ -70,3 +70,20 @@ header{
 		}
 	}
 }
+
+@media screen and (max-width: 800px) {
+
+	@keyframes expand {
+		0% { width: 34vw; }
+		100% { width: 45vw; }
+	}
+
+	img.preloader-gif { 
+		width: 36vw;
+		transform: translate(-50%, -50%);
+	}
+
+	.hi { 
+		img { width: 45vw; } 
+	}
+}
