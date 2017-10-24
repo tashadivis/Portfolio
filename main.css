@@ -92,7 +92,7 @@ header .scrollDown span img { width: 15px; }
 
 #projects h1 { color: #000; position: absolute; font-weight: bold; top: 6vw; left: 6vw; z-index: 111; }
 
-#projects h1 span { text-decoration: none; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)); background-image: linear-gradient(#fff, #fff); background-size: auto 23px; background-repeat: repeat no-repeat; background-position: bottom center; padding-bottom: 0px; font-size: 3em; }
+#projects h1 span { text-decoration: none; background-size: auto 23px; background-repeat: repeat no-repeat; background-position: bottom center; padding-bottom: 0px; font-size: 3em; }
 
 #projects h1 .swipe { padding-top: 20px; font-size: 1.5em; display: none; }
 
@@ -142,7 +142,7 @@ header .scrollDown span img { width: 15px; }
 
 #contact h1 { color: #000; position: absolute; font-weight: bold; top: 6vw; left: 6vw; }
 
-#contact h1 span { text-decoration: none; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)); background-image: linear-gradient(#fff, #fff); background-size: auto 23px; background-repeat: repeat no-repeat; background-position: bottom center; padding-bottom: 0px; font-size: 3em; }
+#contact h1 span { text-decoration: none; background-size: auto 23px; background-repeat: repeat no-repeat; background-position: bottom center; padding-bottom: 0px; font-size: 3em; }
 
 #contact p { color: #000; text-align: center; font-size: 2.5em; font-weight: bold; padding: 50px; }
 
