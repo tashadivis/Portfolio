@@ -57,11 +57,5 @@
 				<!-- <p><a href="#">Read more about this project</a></p> -->
 			</span>
 		</div>
-
 	</div>
-
-	<div class="container">
-		<i class="hand fa fa-hand-pointer-o"></i>
-	</div>
-
 </div>

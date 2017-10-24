@@ -4,8 +4,8 @@ var gulp = require('gulp'),
 	postcss = require('gulp-postcss'),
 	sass = require('gulp-sass'),
 	sourcemaps = require('gulp-sourcemaps'),
-  uglify = require('gulp-uglify'),
-  rename = require('gulp-rename'),
+	uglify = require('gulp-uglify'),
+	rename = require('gulp-rename'),
 
 	// variables for the working folder
 	root = '../portfolio/',

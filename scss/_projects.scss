@@ -107,43 +107,27 @@
 					&:last-child { 
 						font-weight: bold;
 					}
-
-					
 				}
 			}
 		}
 
 		button {
+			transition: opacity .2s ease-in-out;
 			&.slick-prev { animation: bounceLeft 1s infinite; }
 			&.slick-next { animation: bounceRight 1s infinite; }
 		}
 
-		
-	}
-
-	.container {
-		bottom: 10%;
-		left: 10%;
-		position: absolute;
-		right: 10%;
-		top: -40%;
-
-		.hand {
-			animation: swipe 1.5s ease-in-out infinite;
-			color: $black;
-			font-size: 100px;
-			height: 100px;
-			left: calc(50% - 50px);
-			opacity: .1;
-			position: absolute;
-			top: calc(50% - 50px);
-			transform-origin: bottom;
-			width: 100px;
+		ul.slick-dots li {
+			button::before {
+				color: $white;
+				font-size: 10px;
+				opacity: .65;
+				transition: color .1s ease-in-out;
+			}
+			&.slick-active button::before { 
+				color: $black;
+				opacity: 1;
+			}
 		}
-	}
-		
-	@keyframes swipe {
-		0% { transform: translate(100%) rotate(15deg); }
-		100% { transform: translate(-100%); }
 	}
 }
