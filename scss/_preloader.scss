@@ -1,7 +1,7 @@
 img.preloader-gif {
-	width: 200px;
+	width: 15vw;
 	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 50%;
+	transform: translate(calc(-50% - 9px), -50%);
+	top: 45vh;
 	left: 50%;
 }

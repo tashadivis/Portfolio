@@ -44,37 +44,29 @@ header{
 	
 }
 
-@keyframes float {
-	0% {
-		transform: translate(-34vw, -50%);
-		width: 20vw !important;
-		height: 20vw !important;
-	}
-	50% {
-		transform: translate(10%, -50%);
-		width: 20vw !important;
-		height: 20vw !important;
-	}
-	100% {
-		width: 24vw;
-		height: 24vw;
-	}
+@keyframes expand {
+	0% { width: 13vw; }
+	100% { width: 24vw; }
+}
+@keyframes fade {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
 }
 
 .hi {
 	position: absolute;
-	animation: float 4s ease-in-out;
-	top: 50%;
-    transform: translateY(-50%);
-    left: 10%;
-}
-
-.hi-tasha img { padding-top: 6%; }
-
-.hi img { height: 24vw; }
-
-.hi img, .hi-tasha img { 
-	width: 24vw;
-	transition: width 1s ease;
-	float: left;
+    transform: translate(-50%, -50%);
+    left: 50%;
+	top: calc(45.5% + calc(13vw/4.2) );
+    img { 
+		width: 24vw;
+		transition: width 1s ease;
+		display: block;
+		margin: 0 auto;
+		&:nth-of-type(1) { animation: expand 4s ease-in-out; }
+		&:nth-of-type(2) { 
+			padding-top: 20px;
+			animation: fade 4s ease-in-out;
+		}
+	}
 }

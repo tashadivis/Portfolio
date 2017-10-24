@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 //preloader
 function preloadAnimation() {
-  setTimeout(showPage, 4000);
+  setTimeout(showPage, 5000);
 }
 function showPage() {
   document.querySelectorAll(".preloader-gif")[0].style.display = "none";

@@ -40,7 +40,8 @@
 		<span class="menu-box"></span>
 		<a class="menu-link" href="#">Menu</a>
 		<div class="hi">
-			<img src="images/logo-dawg.svg" alt="Tasha Divis Front-End Web Developer Logo, Schnauzer Logo">
+			<img src="images/logo-dawg-2.svg" alt="Tasha Divis Front-End Web Developer Logo, Schnauzer Logo">
+			<img src="images/logo-title.svg" alt="Tasha Divis Front-End Web Developer Logo, Schnauzer Logo">
 		</div>
 		<div class="scrollDown">
 			<a href="#tasha"><p><span class="bounce animated infinite"><img src="images/carret.png" aria-hidden="true"></span>
